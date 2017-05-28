@@ -7,5 +7,5 @@
 <script src="/_admin/ckeditor/ckeditor.js"></script>
 <script src="/_admin/js/plugins/pace/pace.min.js"></script>
 <script src="/_admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
- <script src="/_admin/js/dual_listbox.js"></script>
+<script src="/_admin/js/dual_listbox.js"></script>
 <script src="/_admin/js/common.js"></script>

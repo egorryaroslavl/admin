@@ -13,7 +13,6 @@
 				@else
 					<h2>Стартовая страница</h2>
 					<ol class="breadcrumb">
-						
 						<li class="active">
 							<strong>Стартовая страница</strong>
 						</li>
@@ -26,7 +25,7 @@
 		<div class="wrapper wrapper-content animated fadeInRight">
 			<div class="row">
 				<div class="col-lg-12">
-					@yield('content' )
+						@yield('content' )
 				</div>
 			</div>
 		</div>
