@@ -25,6 +25,11 @@
 		<div class="wrapper wrapper-content animated fadeInRight">
 			<div class="row">
 				<div class="col-lg-12">
+					<div class="i-checks">
+						<label>no <input type="radio" name="radioCh" value="0"></label>
+						<label>yes <input type="radio" name="radioCh" value="1"></label>
+					</div>
+					
 						@yield('content' )
 				</div>
 			</div>

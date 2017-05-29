@@ -6,7 +6,7 @@
 	<link href="/_admin/font-awesome/css/font-awesome.css" rel="stylesheet">
 	<link href="/_admin/css/animate.css" rel="stylesheet">
 	<link href="/_admin/css/style.css" rel="stylesheet">
-	<link href="_/admin/js/plugins/iCheck/custom.css" rel="stylesheet">
+	<link href="/_admin/js/plugins/iCheck/custom.css" rel="stylesheet">
 	<link href="/_admin/css/plugins/dualListbox/bootstrap-duallistbox.min.css" rel="stylesheet">
 	<link href="/_admin/css/dual_listbox.css" rel="stylesheet">
 	<link href="/_admin/css/common.css" rel="stylesheet">

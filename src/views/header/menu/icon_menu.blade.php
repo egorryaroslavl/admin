@@ -1,6 +1,5 @@
 @php
 
-
 	$menuHtml = '<li>Пусто...</li>';
 	$items    = config( 'admin.menu' );
 	$Count    = count( $items );
@@ -34,8 +33,6 @@
 		}
 
 	}
-
-
 @endphp
 <div class="wrapper wrapper-content animated fadeInRight">
 	<div class="row">
