@@ -1,9 +1,5 @@
 <?php
-
-	/*
- 	 *
-	 *
-	 * */
+ 
 	return [
 		[
 			'url'   => '/admin',
@@ -11,13 +7,5 @@
 			'icon'  => 'fa fa-home',
 			'pages' => []
 		],
-
-
-		[
-			'url'   => '/admin/messages',
-			'title' => 'Сообщения',
-			'icon'  => 'fa fa-envelope',
-			'pages' => []
-		],
-
+ 
 	];

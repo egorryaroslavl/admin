@@ -34,18 +34,11 @@
 		'avatar_path_to_save' => public_path() . '/icons/',
 		'image_path_to_save'  => public_path() . '/uploads/images/',
 		'image_tmp_to_save'   => sys_get_temp_dir() . '/',
+		'generate_menu_array' => 1, // если 1, тогда массив для меню будет 
+									// гененрироваться из файлов директории config/admin . 
+									// Или (если 0) будет браться из конфига admin.menu
 
-		'partners'     => [
-			'status' => [
-				'agency'  => 'Агентство',
-				'tourist' => 'Турист',
-				'staff'   => 'Сотрудник',
-				'common'  => 'Общий'
-			]
-		],
-		'message_type' => [ 'reminder' => 'Напоминание',
-		                    'offer'    => 'Предложение'
-		]
+
 
 
 	];
