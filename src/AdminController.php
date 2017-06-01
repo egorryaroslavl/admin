@@ -128,6 +128,21 @@
 			return $menu;
 		}
 
-
+	public static function iconsave( Request $request )
+		{
+			if( $request->hasFile( 'photo' ) ){
+				
+				$uploads_dir = sys_get_temp_dir();
+				$file     = $request->file( 'photo' );
+				$ext      = $file->clientExtension();
+				$tmp_name = $_FILES[ "photo" ][ "tmp_name" ];
+				/*$name     = basename( $_FILES[ "photo" ][ "name" ] );*/
+				$name = 'icon_' . $_POST[ 'table' ] . "_" . $_POST[ 'id' ] . ".$ext";
+				$res = move_uploaded_file( $tmp_name, "$uploads_dir/$name" );
+				if( $res > 0 ){
+					echo json_encode( [ 'error' => 'ok', 'message' => $uploads_dir . '/' . $name ] );
+				}
+			}
+		}
 
 	}
