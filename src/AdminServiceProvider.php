@@ -16,9 +16,8 @@
 			$this->publishes( [ __DIR__ . '/config/menu.php' => config_path( '/admin/menu.php' ) ], 'admin-menu' );
 			$this->publishes( [ __DIR__ . '/config/settings.php' => config_path( '/admin/settings.php' ) ], 'admin-settings' );
 
-			$this->publishes( [ __DIR__ . '/classupload/class.upload.php' => app_path( '/classupload/class.upload.php' ) ], 'classupload' );
-
-			$this->publishes( [ __DIR__ . '/classupload/class.upload.ru_RU.php' => app_path( '/classupload/class.upload.ru_RU.php' ) ], 'classupload' );
+			$this->publishes( [ __DIR__ . '/Classupload/' => app_path( '/' ) ], 'classupload' );
+ 
 
 		}
 
