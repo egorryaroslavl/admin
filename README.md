@@ -3,7 +3,7 @@
  Installation
  -------
 ```
- composer require "egorryaroslavl/admin":"1.0.6" 
+ composer require "egorryaroslavl/admin":"1.0.8" 
 ```
 Then, add serviceProvider:
 
