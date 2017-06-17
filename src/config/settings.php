@@ -1,7 +1,6 @@
 <?php
 
 	return [
-
 		'company_name'      => 'Company Name',
 		'company_site'      => '#',
 		'image_max_width'   => 1000,
@@ -18,13 +17,14 @@
 			'staff'   => 'fa fa-user',
 			'common'  => 'fa fa-question-circle',
 		],
-
-
 		'thumbnail_prefix'    => [
 			'small'  => 'thumb_small_',
 			'middle' => 'thumb_middle_',
 			'large'  => 'thumb_large_',
 
+		],
+		'text_limit'=>[
+		'short_description'=>300
 		],
 		'thumbnail_s'         => [ 'w' => 80, 'h' => 50 ],
 		'thumbnail_m'         => [ 'w' => 220, 'h' => 140 ],
