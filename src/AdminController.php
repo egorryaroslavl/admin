@@ -147,10 +147,10 @@
 
 
 				$img = \Image::make( $file )
-					->widen( config( 'admin.categories.icon_max_width' ), function ( $constraint ){
+					->widen( config( 'admin.'.$request->table.'.icon_max_width', 220 ), function ( $constraint ){
 						$constraint->upsize();
 					} )
-					->heighten( config( 'admin.categories.icon_max_height' ), function ( $constraint ){
+					->heighten( config( 'admin.'.$request->table.'.icon_max_height', 220 ), function ( $constraint ){
 						$constraint->upsize();
 					} )->save( $uploads_dir . '/' . $name );
 
