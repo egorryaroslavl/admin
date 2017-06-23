@@ -3,7 +3,7 @@
  Installation
  -------
 ```
- composer require "egorryaroslavl/admin":"1.0.10" 
+ composer require egorryaroslavl/admin 
 ```
 Then, add serviceProvider:
 
@@ -15,7 +15,4 @@ and run
 ```
 php artisan vendor:publish 
 ```
-and  run
-```
-php artisan migrate
-```
+ 
